@@ -1,6 +1,7 @@
 function load(){
     alert("Press the dice icon below to roll the dice and the home icon to reset");
 }
+
 function rollDice() {
     var randomNumber1=Math.random()*6;
     randomNumber1=Math.floor(randomNumber1)+1;
